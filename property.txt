@@ -1,3 +1,5 @@
+page_title;彩り豊かな景色
+
 logo_image:https://placehold.jp/150x150.png
 header_title:心躍る、新しい旅へ
 
