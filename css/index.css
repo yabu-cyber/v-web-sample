@@ -91,3 +91,18 @@
   font-size: 15px;
   line-height: 1.4;
 }
+
+/* テキストセクション */
+.p-text-section__title {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.p-text-section__inner {
+  padding: 60px 80px;
+}
+
+.p-text-section__text {
+  padding-top: 21px;
+  line-height: 1.4;
+}
