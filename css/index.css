@@ -67,8 +67,8 @@
 }
 .p-card-section__card-wrapper {
   display: flex;
-  row-gap: 50px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px 40px;
   flex-wrap: wrap;
   padding: 50px 80px;
 }
