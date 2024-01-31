@@ -99,10 +99,21 @@
 }
 
 .p-text-section__inner {
-  padding: 60px 80px;
+  padding: 100px 80px;
 }
 
 .p-text-section__text {
   padding-top: 21px;
   line-height: 1.4;
+}
+
+/* Footer */
+
+.l-footer__inner {
+  background-color: black;
+  padding: 30px 80px;
+}
+.l-footer__title {
+  padding-top: 12px;
+  color: white;
 }
