@@ -1,5 +1,6 @@
 .l-body {
   background-color: white;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 /* header */
@@ -40,4 +41,22 @@
 
 .l-header__link-list > * {
   padding: 37px 0 27px;
+}
+
+/* メインビジュアル */
+.p-mainvisual {
+  position: relative;
+  height: 688px;
+}
+
+.p-mainvisual__image {
+  width: 100%;
+  height: 100%;
+}
+.p-mainvisual__title {
+  position: absolute;
+  top: 220px;
+  left: 80px;
+  font-size: 4.4vw;
+  font-weight: bold;
 }
