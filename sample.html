@@ -17,65 +17,70 @@
     <title>V-Web　サンプルページ</title>
   </head>
   <body>
+    <!-- Header -->
     <header class="l-header">
-      <img src="" alt="" />
-      <h1></h1>
+      <img src="{%%logoImage%%}" alt="ロゴ画像" />
+      <h1>{%%headerTitle%%}</h1>
     </header>
     <main class="l-main">
+      <!-- メインビジュアル -->
       <div class="p-mainvisual">
-        <img src="" alt="" />
-        <h2></h2>
+        <img src="{%%mainVisualImage%%}" alt="メインビジュアル画像" />
+        <h2>{%%mainVisualTitle%%}</h2>
       </div>
+      <!-- カードセクション -->
       <section class="p-card-section">
         <div>
           <div class="card card-skin">
-            <img src="{%%cardImg%%}" alt="" />
+            <img src="{%%cardImg_1%%}" alt="" />
             <div class="card__textbox">
               <div class="card__overviewtext">{%%cardText1%%}</div>
             </div>
           </div>
           <div class="card card-skin">
-            <img src="{%%cardImg%%}" alt="" />
+            <img src="{%%cardImg_2%%}" alt="" />
             <div class="card__textbox">
-              <div class="card__overviewtext">{%%cardText1%%}</div>
+              <div class="card__overviewtext">{%%cardText_2%%}</div>
             </div>
           </div>
           <div class="card card-skin">
-            <img src="{%%cardImg%%}" alt="" />
+            <img src="{%%cardImg_3%%}" alt="" />
             <div class="card__textbox">
-              <div class="card__overviewtext">{%%cardText1%%}</div>
+              <div class="card__overviewtext">{%%cardText_3%%}</div>
             </div>
           </div>
           <div class="card card-skin">
-            <img src="{%%cardImg%%}" alt="" />
+            <img src="{%%cardImg_4%%}" alt="" />
             <div class="card__textbox">
-              <div class="card__overviewtext">{%%cardText1%%}</div>
+              <div class="card__overviewtext">{%%cardText_4%%}</div>
             </div>
           </div>
           <div class="card card-skin">
-            <img src="{%%cardImg%%}" alt="" />
+            <img src="{%%cardIm_5%%}" alt="" />
             <div class="card__textbox">
-              <div class="card__overviewtext">{%%cardText1%%}</div>
+              <div class="card__overviewtext">{%%cardText_5%%}</div>
             </div>
           </div>
           <div class="card card-skin">
-            <img src="{%%cardImg%%}" alt="" />
+            <img src="{%%cardImg_6%%}" alt="" />
             <div class="card__textbox">
-              <div class="card__overviewtext">{%%cardText1%%}</div>
+              <div class="card__overviewtext">{%%cardText_6%%}</div>
             </div>
           </div>
         </div>
       </section>
+      <!-- テキストセクション -->
       <section class="p-text-section">
-        <h2></h2>
+        <h2>{%%textSectionTitle%%}</h2>
         <div>
-          <p></p>
+          <p>{%%textSectionDetail%%}</p>
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="l-footer">
-      <img src="" alt="" />
-      <h2></h2>
+      <img src="{%%logoImage%%}" alt="" />
+      <h2>{%%footerTitle%%}</h2>
     </footer>
   </body>
 </html>
