@@ -1,6 +1,43 @@
+.l-body {
+  background-color: white;
+}
+
+/* header */
 .l-header {
 }
 
-.p-mainvisual {
-  /* background-image: {%%mainVisualImage%%}; */
+.l-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.l-header__logo-area {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.l-header__logo {
+  width: 85px;
+  height: 34px;
+}
+
+.l-header__title {
+  font-size: 13px;
+}
+
+.l-header__nav {
+}
+
+.l-header__link-list {
+  display: flex;
+  column-gap: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.l-header__link-list > * {
+  padding: 37px 0 27px;
 }
