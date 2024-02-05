@@ -71,6 +71,8 @@
   gap: 50px 40px;
   flex-wrap: wrap;
   padding: 50px 80px;
+  margin: auto;
+  max-width: 1500px;
 }
 
 .p-card-section__card {
