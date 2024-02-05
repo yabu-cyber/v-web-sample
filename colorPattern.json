@@ -1,0 +1,74 @@
+{
+	"colorPattern_A": {
+		"PrimaryColor": "#2E3BFF",
+		"subColor": "#34368A",
+		"bgColor_1": "#F3F7FF",
+		"bgColor_2": "#FFFFFF"
+	},
+	"colorPattern_B": {
+		"PrimaryColor": "#FF2D55",
+		"subColor": "#007AFF",
+		"bgColor_1": "#EFEFF4",
+		"bgColor_2": "#000000"
+	},
+	"colorPattern_C": {
+		"PrimaryColor": "#7269FF",
+		"subColor": "#07C2FF",
+		"bgColor_1": "#272747",
+		"bgColor_2": "#F0F0FB"
+	},
+	"colorPattern_D": {
+		"PrimaryColor": "#FF5000",
+		"subColor": "#333333",
+		"bgColor_1": "#FFFFFF",
+		"bgColor_2": "#DCDCDC"
+	},
+	"colorPattern_E": {
+		"PrimaryColor": "#08C283",
+		"subColor": "#3B3A6A",
+		"bgColor_1": "#EFFAF7",
+		"bgColor_2": "#24243C"
+	},
+	"colorPattern_F": {
+		"PrimaryColor": "#FFC000",
+		"subColor": "#000000",
+		"bgColor_1": "#7E7E7E",
+		"bgColor_2": "#EDEDED"
+	},
+	"colorPattern_G": {
+		"PrimaryColor": "#CE202A",
+		"subColor": "#261514",
+		"bgColor_1": "#BEC6CA",
+		"bgColor_2": "#F4F3F5"
+	},
+	"colorPattern_H": {
+		"PrimaryColor": "#DA9901",
+		"subColor": "#4D1F00",
+		"bgColor_1": "#006E61",
+		"bgColor_2": "#DFE0DF"
+	},
+	"colorPattern_I": {
+		"PrimaryColor": "#04070C",
+		"subColor": "#A9BCCA",
+		"bgColor_1": "#EEF2F8",
+		"bgColor_2": "#FEFEFE"
+	},
+	"colorPattern_J": {
+		"PrimaryColor": "#1E2832",
+		"subColor": "#00DBC8",
+		"bgColor_1": "#E2E7EA",
+		"bgColor_2": "#FEFEFE"
+	},
+	"colorPattern_K": {
+		"PrimaryColor": "#2F3131",
+		"subColor": "#F947B1",
+		"bgColor_1": "#DEDFE3",
+		"bgColor_2": "#EDEEF0"
+	},
+	"colorPattern_L": {
+		"PrimaryColor": "#FFC000",
+		"subColor": "#000000",
+		"bgColor_1": "#7E7E7E",
+		"bgColor_2": "#EDEDED"
+	}
+}
