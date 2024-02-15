@@ -123,6 +123,7 @@
 
 .p-two-column-section__image-wrapper {
   width: 560px;
+  aspect-ratio: 14/19;
 }
 
 .p-two-column-section__image {
