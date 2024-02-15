@@ -110,6 +110,41 @@
   line-height: 1.4;
 }
 
+/* 2カラムセクション */
+.p-two-column-section {
+  background-color: #ececec;
+}
+
+.p-two-column-section__inner {
+  display: flex;
+  column-gap: 80px;
+  padding: 120px 140px;
+}
+
+.p-two-column-section__image-wrapper {
+  width: 560px;
+}
+
+.p-two-column-section__image {
+  width: 100%;
+}
+
+.p-two-column-section__text {
+  width: calc(100% - 640px);
+}
+
+.p-two-column-section__title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.5;
+  padding: 160px 0 40px 0;
+}
+
+.p-two-column-section__detail {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
 /* Footer */
 .l-footer {
 }
