@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+    />
+    <link rel="stylesheet" href="css/index.css?20231114" />
+    <title>{%%page_title%%}</title>
+  </head>
+  <body class="l-body">
+    <!-- Header -->
+    <header class="l-header">
+      <div class="l-header__inner">
+        <div class="l-header__logo-area">
+          <img class="l-header__logo" src="{%%logo_image%%}" alt="ロゴ画像" />
+          <h1 class="l-header__title">{%%header_title%%}</h1>
+        </div>
+        <div class="l-header__nav-wrapper">
+          <nav class="l-header__nav">
+            <ul class="l-header__link-list">
+              <li><a href="">トップ</a></li>
+              <li><a href="">お知らせ</a></li>
+              <li><a href="">運営会社</a></li>
+              <li><a href="">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="l-main">
+      <!-- メインビジュアル -->
+      <div class="p-mainvisual">
+        <img
+          class="p-mainvisual__image"
+          src="{%%main_visual_image%%}"
+          alt="メインビジュアル画像"
+        />
+        <h2 class="p-mainvisual__title">{%%main_visual_title%%}</h2>
+      </div>
+      <!-- テキストセクション -->
+      <section class="p-text-section">
+        <div class="p-text-section__inner">
+          <h2 class="p-text-section__title">{%%text_section_title%%}</h2>
+          <div class="p-text-section_text-are">
+            <p class="p-text-section__text">{%%text_section_detail%%}</p>
+          </div>
+        </div>
+      </section>
+      <!-- 2カラムセクション -->
+      <section class="p-two-column-section">
+        <div class="p-two-column-section__inner">
+          <div class="p-two-column-section__image-wrapper">
+            <img
+              class="p-two-column-section__image"
+              src="{%%text_section_img%%}"
+              alt=""
+            />
+          </div>
+          <div class="p-two-column-section__text">
+            <h2 class="p-two-column-section__title">
+              {%%text_section_title%%}
+            </h2>
+            <p class="p-two-column-section__detail">
+              {%%text_section_detail%%}
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="l-footer">
+      <div class="l-footer__inner">
+        <img src="{%%logo_image%%}" alt="ロゴ画像" />
+        <h2 class="l-footer__title">{%%footer_title%%}</h2>
+      </div>
+    </footer>
+  </body>
+</html>
