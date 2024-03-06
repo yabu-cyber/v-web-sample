@@ -158,3 +158,23 @@
   padding-top: 12px;
   color: white;
 }
+
+/* introduction-short-section */
+.p-introtroduction-short__content {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  padding: 160px 0;
+  background-color: #f5f5f5;
+}
+
+.p-introtroduction-short__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.p-introtroduction-short__description {
+  width: 300px;
+  font-size: 14px;
+  line-height: 2;
+}
