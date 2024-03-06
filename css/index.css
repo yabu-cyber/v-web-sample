@@ -178,3 +178,75 @@
   font-size: 14px;
   line-height: 2;
 }
+
+/* right-text-section  */
+.p-right-text {
+}
+
+.p-right-text__content {
+  padding: 100px 0 180px 44.4%;
+}
+
+.p-right-text__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+
+.p-right-text__description {
+  width: 44.4vw;
+  padding-top: 24px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* left-text-section  */
+.p-center-text {
+}
+
+.p-center-text__content {
+  padding: 100px 0 180px 0;
+  width: 44.4%;
+  margin: auto;
+}
+
+.p-center-text__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+
+.p-center-text__description {
+  padding-top: 24px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* left-text-section  */
+.p-left-text {
+}
+
+.p-left-text__content {
+  padding: 100px 0 180px 11.1%;
+}
+
+.p-left-text__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+
+.p-left-text__description {
+  width: 44.4vw;
+  padding-top: 24px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* 後で消す！ */
+.empty {
+  height: 40px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
