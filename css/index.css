@@ -68,40 +68,6 @@
   font-weight: bold;
 }
 
-/* カードセクション */
-.p-card-section {
-  background-color: #d9d9d9;
-}
-.p-card-section__card-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 50px 40px;
-  flex-wrap: wrap;
-  padding: 50px 80px;
-  margin: auto;
-  max-width: 1500px;
-}
-
-.p-card-section__card {
-  width: 400px;
-  height: 475px;
-  padding: 28px;
-  background-color: white;
-}
-
-.p-card-section__img {
-  width: 344px;
-  height: 212px;
-}
-
-.p-card-section__card-textbox {
-  padding-top: 16px;
-}
-.p-card-section__card-overviewtext {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
 /* テキストセクション */
 .p-text-section__title {
   font-size: 56px;
@@ -287,4 +253,47 @@
   background-color: black;
   font-size: 18px;
   color: white;
+}
+
+/* card-section */
+.p-card-section {
+  background-color: #d9d9d9;
+}
+
+.p-card-section__card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px 48px;
+  max-width: 1260px;
+  margin: auto;
+  padding: 84px 40px 100px;
+}
+.p-card-section__card {
+  width: 360px;
+  aspect-ratio: 360/456;
+  background-color: #fff;
+}
+.p-card-section__card-img {
+}
+
+.p-card-section__card-text-area {
+  padding: 20px 28px 0;
+}
+.p-card-section__card-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.18;
+}
+.p-card-section__card-subtitle {
+  padding: 8px 0 16px;
+  font-size: 18px;
+  font-weight: 500;
+
+  line-height: 1.44;
+}
+.p-card-section__card-description {
+  font-size: 16px;
+  line-height: 1.75;
 }

@@ -1,12 +1,24 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <title>{%%page_title%%}</title>
+    <link rel="stylesheet" href="css/index.css?20231114" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
     />
-    <link rel="stylesheet" href="css/index.css?20231114" />
-    <title>{%%page_title%%}</title>
   </head>
   <body class="l-body">
     <!-- Header -->
@@ -29,15 +41,6 @@
       </div>
     </header>
     <main class="l-main">
-      <!-- メインビジュアル -->
-      <div class="p-mainvisual">
-        <img
-          class="p-mainvisual__image"
-          src="{%%main_visual_image%%}"
-          alt="メインビジュアル画像"
-        />
-        <h2 class="p-mainvisual__title">{%%main_visual_title%%}</h2>
-      </div>
       <!--introduction-short-section  -->
       <section class="p-introtroduction-short">
         <div class="p-introtroduction-short__content">
@@ -105,178 +108,93 @@
       <!--card-section  -->
       <div class="empty"></div>
       <section class="p-card-section">
-        <div class="p-card-section__inner">
-          <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           <div class="p-card-section__card">
-            <img class="p-card-section__card-img" src="" alt="">
-            <div class="p-card-section__card-text-area">
-              <h3 class="p-card-section__card-title"></h3>
-              <p class="p-card-section__card-subtitle"></p>
-              <p class="p-card-section__card-description"></p>
-            </div>
-          </div>
-           
-        </div>
-      </section>
-
-      <!-- 2カラムセクション -->
-      <!--  <section class="p-two-column-section">
-        <div class="p-two-column-section__inner">
-          <div class="p-two-column-section__image-wrapper">
-            <img
-              class="p-two-column-section__image"
-              src="{%%text_section_img%%}"
-              alt=""
-            />
-          </div>
-          <div class="p-two-column-section__text">
-            <h2 class="p-two-column-section__title">
-              {%%text_section_title%%}
-            </h2>
-            <p class="p-two-column-section__detail">
-              {%%text_section_detail%%}
-            </p>
-          </div>
-        </div>
-      </section> -->
-    
         <div class="p-card-section__card-wrapper">
           <div class="p-card-section__card">
-            <div class="p-card-section__card-content">
-              <img
-                class="p-card-section__img"
-                src="{%%card_image_1%%}"
-                alt=""
-              />
-
-              <div class="p-card-section__card-textbox">
-                <div class="p-card-section__card-overviewtext">
-                  {%%card_text_1%%}
-                </div>
-              </div>
+            <img
+              class="p-card-section__card-img"
+              src="https://placehold.jp/360x217.png"
+              alt="カード画像"
+            />
+            <div class="p-card-section__card-text-area">
+              <h3 class="p-card-section__card-title">AI DEVELOPMENT</h3>
+              <p class="p-card-section__card-subtitle">AI開発企業</p>
+              <p class="p-card-section__card-description">
+                お客様一人ひとりのニーズに合わせたカスタマイズされたAIソリューション。
+              </p>
             </div>
           </div>
           <div class="p-card-section__card">
-            <div class="p-card-section__card-content">
-              <img
-                class="p-card-section__img"
-                src="{%%card_image_2%%}"
-                alt=""
-              />
-              <div class="p-card-section__card-textbox">
-                <div class="p-card-section__card-overviewtext">
-                  {%%card_text_2%%}
-                </div>
-              </div>
+            <img
+              class="p-card-section__card-img"
+              src="https://placehold.jp/360x217.png"
+              alt="カード画像"
+            />
+            <div class="p-card-section__card-text-area">
+              <h3 class="p-card-section__card-title">AI DEVELOPMENT</h3>
+              <p class="p-card-section__card-subtitle">AI開発企業</p>
+              <p class="p-card-section__card-description">
+                お客様一人ひとりのニーズに合わせたカスタマイズされたAIソリューション。
+              </p>
             </div>
           </div>
           <div class="p-card-section__card">
-            <div class="p-card-section__card-content">
-              <img
-                class="p-card-section__img"
-                src="{%%card_image_3%%}"
-                alt=""
-              />
-              <div class="p-card-section__card-textbox">
-                <div class="p-card-section__card-overviewtext">
-                  {%%card_text_3%%}
-                </div>
-              </div>
+            <img
+              class="p-card-section__card-img"
+              src="https://placehold.jp/360x217.png"
+              alt="カード画像"
+            />
+            <div class="p-card-section__card-text-area">
+              <h3 class="p-card-section__card-title">AI DEVELOPMENT</h3>
+              <p class="p-card-section__card-subtitle">AI開発企業</p>
+              <p class="p-card-section__card-description">
+                お客様一人ひとりのニーズに合わせたカスタマイズされたAIソリューション。
+              </p>
             </div>
           </div>
           <div class="p-card-section__card">
-            <div class="p-card-section__card-content">
-              <img
-                class="p-card-section__img"
-                src="{%%card_image_4%%}"
-                alt=""
-              />
-
-              <div class="p-card-section__card-textbox">
-                <div class="p-card-section__card-overviewtext">
-                  {%%card_text_4%%}
-                </div>
-              </div>
+            <img
+              class="p-card-section__card-img"
+              src="https://placehold.jp/360x217.png"
+              alt="カード画像"
+            />
+            <div class="p-card-section__card-text-area">
+              <h3 class="p-card-section__card-title">AI DEVELOPMENT</h3>
+              <p class="p-card-section__card-subtitle">AI開発企業</p>
+              <p class="p-card-section__card-description">
+                お客様一人ひとりのニーズに合わせたカスタマイズされたAIソリューション。
+              </p>
             </div>
           </div>
           <div class="p-card-section__card">
-            <div class="p-card-section__card-content">
-              <img
-                class="p-card-section__img"
-                src="{%%card_image_5%%}"
-                alt=""
-              />
-              <div class="p-card-section__card-textbox">
-                <div class="p-card-section__card-overviewtext">
-                  {%%card_text_5%%}
-                </div>
-              </div>
+            <img
+              class="p-card-section__card-img"
+              src="https://placehold.jp/360x217.png"
+              alt="カード画像"
+            />
+            <div class="p-card-section__card-text-area">
+              <h3 class="p-card-section__card-title">AI DEVELOPMENT</h3>
+              <p class="p-card-section__card-subtitle">AI開発企業</p>
+              <p class="p-card-section__card-description">
+                お客様一人ひとりのニーズに合わせたカスタマイズされたAIソリューション。
+              </p>
             </div>
           </div>
           <div class="p-card-section__card">
-            <div class="p-card-section__card-content">
-              <img
-                class="p-card-section__img"
-                src="{%%card_image_6%%}"
-                alt=""
-              />
-
-              <div class="p-card-section__card-textbox">
-                <div class="p-card-section__card-overviewtext">
-                  {%%card_text_6%%}
-                </div>
-              </div>
+            <img
+              class="p-card-section__card-img"
+              src="https://placehold.jp/360x217.png"
+              alt="カード画像"
+            />
+            <div class="p-card-section__card-text-area">
+              <h3 class="p-card-section__card-title">AI DEVELOPMENT</h3>
+              <p class="p-card-section__card-subtitle">AI開発企業</p>
+              <p class="p-card-section__card-description">
+                お客様一人ひとりのニーズに合わせたカスタマイズされたAIソリューション。
+              </p>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- Footer -->
     <footer class="l-footer">
