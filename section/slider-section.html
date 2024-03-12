@@ -1,0 +1,33 @@
+<!-- slider-section -->
+<section class="slider-section">
+  <div class="slider-section__content">
+    <div class="slider">
+      <div class="slider-element">
+        <img src="./images/service-bottom-office2.jpg" />
+      </div>
+      <div class="slider-element">
+        <img src="./images/service-bottom-laptop.jpg" />
+      </div>
+      <div class="slider-element">
+        <img src="./images/service-bottom-people-outside.jpg" />
+      </div>
+      <div class="slider-element">
+        <img src="./images/service-bottom-meeting2.jpg" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $(".slider").slick({
+    autoplay: true, // 自動でスクロール
+    autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
+    speed: 8000, // スライドが流れる速度を設定
+    cssEase: "linear", // スライドの流れ方を等速に設定
+    slidesToShow: 3.43,
+    swipe: false, // 操作による切り替えはさせない
+    arrows: false, // 矢印非表示
+    pauseOnFocus: false, // スライダーをフォーカスした時にスライドを停止させるか
+    pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
+  });
+</script>
