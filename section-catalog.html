@@ -2,7 +2,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>{%%page_title%%}</title>
-    <link rel="stylesheet" href="css/index.css?20231114" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
     />
-
+    <link rel="stylesheet" href="css/index.css?20231114" />
     <!-- slider -->
     <link
       rel="stylesheet"
@@ -41,6 +40,7 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
     ></script>
+    <script type="text/javascript" src="js/slider.js"></script>
   </head>
   <body class="l-body">
     <main class="l-main">
@@ -341,15 +341,6 @@
           arrows: false, // 矢印非表示
           pauseOnFocus: false, // スライダーをフォーカスした時にスライドを停止させるか
           pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
-
-          /*  responsive: [
-            {
-              breakpoint: 750,
-              settings: {
-                slidesToShow: 3, // 画面幅750px以下でスライド3枚表示
-              },
-            },
-          ], */
         });
       </script>
     </main>
