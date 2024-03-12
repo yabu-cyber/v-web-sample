@@ -187,27 +187,6 @@
   letter-spacing: 0.031em;
 }
 
-.p-title-only-section__text {
-  padding: 24px 0 40px;
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 0.125em;
-}
-
-.p-title-only-section__button-wrapper {
-  width: 440px;
-  margin: auto;
-}
-
-.p-title-only-section__button {
-  width: 100%;
-  padding: 26px 143px 28px 134px;
-  border-radius: 74px;
-  background-color: black;
-  font-size: 18px;
-  color: white;
-}
-
 /* title-text-section*/
 .p-title-text-section {
 }
