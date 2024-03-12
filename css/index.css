@@ -147,6 +147,29 @@
   color: white;
 }
 
+/* button-only-section*/
+.p-button-only-section {
+}
+
+.p-button-only-section__inner {
+  width: 49.6%;
+  margin: 40px auto 100px;
+}
+
+.p-button-only-section__button-wrapper {
+  width: 440px;
+  margin: auto;
+}
+
+.p-button-only-section__button {
+  width: 100%;
+  padding: 26px 143px 28px 134px;
+  border-radius: 74px;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+}
+
 /* card-section */
 .p-card-section {
   background-color: #d9d9d9;
