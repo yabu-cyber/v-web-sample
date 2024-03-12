@@ -19,6 +19,28 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
     />
+
+    <!-- slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
   </head>
   <body class="l-body">
     <main class="l-main">
@@ -245,6 +267,50 @@
           </div>
         </div>
       </section>
+
+      <!-- slider-section -->
+      <h2 class="section-name">slider-section</h2>
+      <section class="slider-section">
+        <div class="slider-section__content">
+          <div class="slider">
+            <div class="slider-element">
+              <img src="./images/service-bottom-office2.jpg" />
+            </div>
+            <div class="slider-element">
+              <img src="./images/service-bottom-laptop.jpg" />
+            </div>
+            <div class="slider-element">
+              <img src="./images/service-bottom-people-outside.jpg" />
+            </div>
+            <div class="slider-element">
+              <img src="./images/service-bottom-meeting2.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        $(".slider").slick({
+          autoplay: true, // 自動でスクロール
+          autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
+          speed: 8000, // スライドが流れる速度を設定
+          cssEase: "linear", // スライドの流れ方を等速に設定
+          slidesToShow: 3.43,
+          swipe: false, // 操作による切り替えはさせない
+          arrows: false, // 矢印非表示
+          pauseOnFocus: false, // スライダーをフォーカスした時にスライドを停止させるか
+          pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
+
+          /*  responsive: [
+            {
+              breakpoint: 750,
+              settings: {
+                slidesToShow: 3, // 画面幅750px以下でスライド3枚表示
+              },
+            },
+          ], */
+        });
+      </script>
     </main>
   </body>
 </html>
