@@ -159,6 +159,157 @@
   color: white;
 }
 
+/*---------------
+  Layout_B 
+ --------------*/
+
+/* header */
+.l-header--b {
+  width: 100%;
+  position: absolute;
+  top: 12px;
+}
+
+.l-header-content--b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  height: 72px;
+  margin: auto;
+  border-radius: 72px;
+
+  background-color: white;
+}
+
+.l-header-content__logo--b {
+  margin-left: 80px;
+}
+
+.l-header-content__button-wrapper--b {
+  display: flex;
+  align-items: center;
+  column-gap: 42px;
+  margin-right: 34px;
+}
+
+.l-header-content__button-contact--b {
+  position: relative;
+  padding: 8px 24px 10px 46px;
+  border-radius: 100px;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+}
+
+.l-header-content__button-contact--b::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 17px;
+  width: 16px;
+  height: 13px;
+  background-image: url(../images/icon/mail-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.l-header-content__button-menu--b {
+  width: 30px;
+}
+/* mainVisual */
+
+.l-main-mv--b {
+  height: 960px;
+  background-image: url(../images/mv-bg-a.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.l-main-mv__inner--b {
+  text-align: center;
+}
+
+.l-main-mv__text-area--b {
+  padding: 374px 0 193px;
+}
+
+.l-main-mv__title--b {
+  padding-bottom: 12px;
+  font-size: 56px;
+  line-height: 1.71;
+  font-weight: bold;
+  color: white;
+}
+
+.l-main-mv__subtitle--b {
+  margin: auto;
+  width: 420px;
+  font-size: 18px;
+  line-height: 1.67;
+  color: white;
+}
+
+.l-main-mv__button--b {
+  padding: 16px 88px 18px;
+  border-radius: 100px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+
+/* footer */
+.l-footer--b {
+  background-color: black;
+  text-align: center;
+}
+
+.l-footer__content--b {
+  padding: 48px 0 80px;
+}
+
+.l-footer__logo--b {
+  margin: auto;
+  width: 115px;
+}
+
+.l-footer__logo--b img {
+  width: 100%;
+}
+
+.l-footer__company--b {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: white;
+}
+
+.l-footer__sns--b {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 40px 0 32px;
+}
+
+.l-footer__icon--b {
+  width: 34px;
+}
+
+.l-footer__icon--b img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.l-footer__copyright--b {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  color: white;
+}
+
 /* introduction-short-section */
 .p-introtroduction-short-section__content {
   display: flex;
