@@ -9,8 +9,11 @@
   background-color: green;
   font-family: "Noto Sans JP", sans-serif;
 }
-/* Layout_A */
+/*---------------
+  Layout_A 
+ --------------*/
 
+/* header */
 .l-header--a {
 }
 
@@ -39,6 +42,7 @@
 }
 
 .l-header-content__button-contact--a {
+  position: relative;
   padding: 8px 24px 10px 46px;
   border-radius: 100px;
   background-color: black;
@@ -46,9 +50,23 @@
   color: white;
 }
 
+.l-header-content__button-contact--a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 17px;
+  width: 16px;
+  height: 13px;
+  background-image: url(../images/icon/mail-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .l-header-content__button-menu--a {
   width: 30px;
 }
+/* mainVisual */
 /* introduction-short-section */
 .p-introtroduction-short-section__content {
   display: flex;
