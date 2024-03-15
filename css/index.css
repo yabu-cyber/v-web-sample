@@ -109,6 +109,56 @@
   line-height: 1.67;
 }
 
+/* footer */
+.l-footer--a {
+  background-color: black;
+  text-align: center;
+}
+
+.l-footer__content--a {
+  padding: 48px 0 80px;
+}
+
+.l-footer__logo--a {
+  margin: auto;
+  width: 115px;
+}
+
+.l-footer__logo--a img {
+  width: 100%;
+}
+
+.l-footer__company--a {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: white;
+}
+
+.l-footer__sns--a {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 40px 0 32px;
+}
+
+.l-footer__icon--a {
+  width: 34px;
+}
+
+.l-footer__icon--a img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.l-footer__copyright--a {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  color: white;
+}
+
 /* introduction-short-section */
 .p-introtroduction-short-section__content {
   display: flex;
